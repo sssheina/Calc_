@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    	rel="shortcut icon"
+    	href="./assets/images/calculator_6.png"
+    	type="image/png">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+
+<div class="background" id="background">
+	<h1>CALCULATOR</h1>
+
+	<div class="arguments">
+		<input type="text" id="first_arg" value="" placeholder="FIRST ARGUMENT"><br>
+		<input type="text" id="second_arg" value=""  placeholder="SECOND ARGUMENT"><br>
+	</div>
+	<div class="calculator">
+		
+		<button class="calculator__addition button" >&#43;</button>
+		<button class="calculator__subtraction button" onclick="calculate('-')">&#8722;</button>
+		<button class="calculator__multiplication button" onclick="calculate('*')">&#215;</button>
+		<button class="calculator__division button" onclick="calculate('/')">&#247;</button>
+	</div>
+	<div id="result">RESULT</div>
+</div>
+<script src="./assets/scripts/index.js"></script>
+</body>
+
+</html>
